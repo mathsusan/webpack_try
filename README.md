@@ -21,3 +21,9 @@ python3 manage.py runserver
 ```
 
 When you change code in the frontend dir, webpack will compile and update so that django can pick it up
+
+### Production build
+- for the frontend dir
+```
+npm run build
+```
